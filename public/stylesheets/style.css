@@ -251,7 +251,6 @@ legend {
     #inner_wrapper {
         max-width: 100%;
     }
-
     .navigation {
         top: 0;
         bottom: 0;
@@ -262,7 +261,6 @@ legend {
         overflow-y: scroll;
 
     }
-
     .navigation_button {
         display: block;
         position: fixed;
@@ -277,15 +275,12 @@ legend {
         text-decoration: none;
         background-color: rgba(25, 24, 24, 0.46);
     }
-
     .navigation_button.active {
         margin-left: 215px;
     }
-
     .navigation.active {
         margin-left: 0;
     }
-
     #header {
         height: 52px;
     }
