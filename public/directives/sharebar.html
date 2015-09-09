@@ -1,0 +1,70 @@
+<div class="sharebar">
+    <div class="facebook">
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{shareUrl}}" target="_blank">
+            <div>
+                    <div class="icon">
+                        <img src="../media/facebook.png" alt="facebook share icon"/>
+                    </div>
+                    <div class="label">
+                        Teilen
+                    </div>
+                    <div class="count">
+                    <span class="facebook">
+                        {{fbShareCount || 0}}
+                    </span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="twitter">
+        <a href="https://twitter.com/home?status={{shareUrl}}&url=http://{{shareUrl}}"
+           target="_blank">
+            <div>
+                <div class="icon">
+                    <img src="../media/twitter.png" alt="twittter tweet icon"/>
+                </div>
+                <div class="label">
+                    Tweet
+                </div>
+                <div class="count">
+                    <span class="twitter">
+                        {{tweetCount || 0}}
+                    </span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="gplus">
+        <a href="https://plus.google.com/share?url={{shareUrl}}" target="_blank">
+            <div>
+                <div class="icon">
+                    <img src="../media/gplus.png" alt="google plus teilen icon"/>
+                </div>
+                <div class="label">
+                    Teilen
+                </div>
+                <div class="count">
+                    <span class="gplus">
+                        {{gplusShareCount || 0}}
+                    </span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="email">
+        <a href="mailto:?to=&body={{shareText + '%20Hier%20klicken:%20' + shareUrl}}&subject=Website%20recommendation">
+            <div>
+                <div class="icon">
+                    <img src="../media/email.png" alt="send via email icon"/>
+                </div>
+                <div class="label">
+                    Mail
+                </div>
+                <div class="count">
+                    <span class="email">
+                    </span>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>

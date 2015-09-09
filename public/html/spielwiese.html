@@ -1,0 +1,63 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/pure@0.6.0(pure-min.css+grids-responsive-min.css)">
+</head>
+<body>
+<form class="pure-form pure-form-aligned converter">
+    <fieldset>
+        <legend>
+            Nutze den Umrechner auf dieser Seite oder wähle eine Kategorie im Menü links.<br/>
+            Für große Zahlen kann die e-Notation benutzt werden.
+        </legend>
+        <div class="pure-control-group">
+            <label for="input">Wert</label>
+            <input id="input" type="number" step="any"
+                   placeholder="Zahl"
+                   ng-model="converter.input"/>
+        </div>
+
+        <div class="pure-control-group">
+            <label for="fromSelect">Ausgangseinheit</label>
+            <select id="fromSelect"
+                    ng-model="converter.fromUnit"
+                    ng-options="option as option.name for option in selectedSite.units">
+            </select>
+        </div>
+        <div class="pure-control-group">
+            <label for="toSelect">Zieleinheit</label>
+            <select id="toSelect"
+                    ng-model="converter.toUnit"
+                    ng-options="option as option.name for option in selectedSite.units">
+            </select>
+        </div>
+
+        <div class="pure-control-group"
+             ng-show="converter.result">
+            <label for="result">Ergebnis:</label>
+            <span id="result" ng-bind-html="converter.result"></span>
+        </div>
+        <div class="pure-control-group"
+             ng-show="converter.ratio">
+            <label for="ratio"></label>
+            <span id="ratio" ng-bind-html="converter.ratio"></span>
+        </div>
+        <div class="pure-control-group">
+            <label for="buttons"></label>
+                <span id="buttons">
+                    <button class="pure-button pure-button-primary" ng-click="calculate()">Calculate
+                    </button>
+                    <button class="pure-button" type="reset" ng-click="reset()">Clear
+                    </button>
+                </span>
+        </div>
+        <div class="alert" ng-show="converter.error !== undefined">
+            <div class="alert_inner">
+                <div class="alert_text" ng-bind="converter.error"></div>
+                <div class="alert_dismiss" ng-click="converter.error = undefined">&times;</div>
+            </div>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
+

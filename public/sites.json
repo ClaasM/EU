@@ -1,0 +1,1140 @@
+[
+  {
+    "path": "laenge",
+    "name": "Länge",
+    "description": "Längen, Höhen und Entfernungen in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "umrechnen laengen längen höhen hoehen entfernungen umrechnen imperial metrisch konvertieren",
+    "initialFromUnit": 35,
+    "initialToUnit": 22,
+    "units": [
+      {
+        "name": "Ångström (Å)",
+        "factorSI": 1e-10
+      },
+      {
+        "name": "Astronomische Einheiten (AE)",
+        "factorSI": 149597870691
+      },
+      {
+        "name": "Cable (cbl.)",
+        "factorSI": 185.3184
+      },
+      {
+        "name": "Calibre (cal.)",
+        "factorSI": 0.000254
+      },
+      {
+        "name": "Chinesisch Li",
+        "factorSI": 500
+      },
+      {
+        "name": "Chinesisch yin",
+        "factorSI": 33.333333333333
+      },
+      {
+        "name": "Chinesisch zhang",
+        "factorSI": 3.333333333333
+      },
+      {
+        "name": "Chinesisch chi",
+        "factorSI": 0.333333333333
+      },
+      {
+        "name": "Chinesisch cun",
+        "factorSI": 0.0333333333333
+      },
+      {
+        "name": "Chinesisch fen",
+        "factorSI": 0.00333333333333
+      },
+      {
+        "name": "Chinesisch hao",
+        "factorSI": 0.000333333333333
+      },
+      {
+        "name": "Chinesisch si",
+        "factorSI": 0.0000333333333333
+      },
+      {
+        "name": "Chinesisch hu",
+        "factorSI": 0.00000333333333333
+      },
+      {
+        "name": "Dekameter (dam)",
+        "factorSI": 10
+      },
+      {
+        "name": "Dezimeter (dm)",
+        "factorSI": 0.1
+      },
+      {
+        "name": "Elle",
+        "factorSI": 0.46
+      },
+      {
+        "name": "Femtometer (fm)",
+        "factorSI": 1e-15
+      },
+      {
+        "name": "Furlong (fur.)",
+        "factorSI": 201.168
+      },
+      {
+        "name": "Fuß (ft)",
+        "factorSI": 0.3048
+      },
+      {
+        "name": "Hektometer (hm)",
+        "factorSI": 100
+      },
+      {
+        "name": "Inch",
+        "factorSI": 0.0254
+      },
+      {
+        "name": "Kaliber (cal.)",
+        "factorSI": 0.0022558
+      },
+      {
+        "name": "Kilometer (km)",
+        "factorSI": 1000,
+        "selected": "to"
+      },
+      {
+        "name": "Leuge (Metrisch)",
+        "factorSI": 4000
+      },
+      {
+        "name": "Leuge (Nautisch)",
+        "factorSI": 4828.032
+      },
+      {
+        "name": "Leuge (Post)",
+        "factorSI": 3898
+      },
+      {
+        "name": "Lichtjahre (ly)",
+        "factorSI": 9460528000000000
+      },
+      {
+        "name": "Légua",
+        "factorSI": 5590
+      },
+      {
+        "name": "Meilen (alt-deutsch)",
+        "factorSI": 7420.44
+      },
+      {
+        "name": "Meilen (englisch)",
+        "factorSI": 1609.344
+      },
+      {
+        "name": "Meilen (nautisch, NM)",
+        "factorSI": 1852
+      },
+      {
+        "name": "Meilen (preußisch)",
+        "factorSI": 7532.484
+      },
+      {
+        "name": "Meilen (russisch, Milja)",
+        "factorSI": 7467.6
+      },
+      {
+        "name": "Meilen (römische)",
+        "factorSI": 1481.76
+      },
+      {
+        "name": "Meilen (schwedisch, metrisch, skandinavisch)",
+        "factorSI": 10000
+      },
+      {
+        "name": "Meilen",
+        "factorSI": 1609.344,
+        "selected": "from"
+      },
+      {
+        "name": "Meter (m)",
+        "factorSI": 1
+      },
+      {
+        "name": "Mikrometer (µm)",
+        "factorSI": 1e-6
+      },
+      {
+        "name": "Millimeter (mm)",
+        "factorSI": 0.001
+      },
+      {
+        "name": "Nanometer (nm)",
+        "factorSI": 1e-9
+      },
+      {
+        "name": "Pariser Stich",
+        "factorSI": 0.00667
+      },
+      {
+        "name": "Parsec (pc)",
+        "factorSI": 30856776000000000
+      },
+      {
+        "name": "Pikometer",
+        "factorSI": 1e-12
+      },
+      {
+        "name": "Planck-Länge (lp)",
+        "factorSI": 0.0000254
+      },
+      {
+        "name": "Punkt (pt)",
+        "factorSI": 0.00035277777777777
+      },
+      {
+        "name": "Ruten (rd)",
+        "factorSI": 5.0292
+      },
+      {
+        "name": "Sabbatweg",
+        "factorSI": 1000
+      },
+      {
+        "name": "Seemeilen (sm)",
+        "factorSI": 1853.184
+      },
+      {
+        "name": "X-Einheit",
+        "factorSI": 0.0000254
+      },
+      {
+        "name": "Yard (yd)",
+        "factorSI": 0.9144
+      },
+      {
+        "name": "Zentimeter (cm)",
+        "factorSI": 0.01
+      },
+      {
+        "name": "Zoll",
+        "factorSI": 0.0254
+      }
+    ]
+  },
+  {
+    "path": "flaeche",
+    "name": "Fläche",
+    "description": "Flächen, Ebenen und Areale in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "flächen flaechen ebenen areale eiheiten umrechnen konvertieren imperial metrisch",
+    "initialFromUnit": 4,
+    "initialToUnit": 13,
+    "units": [
+      {
+        "name": "Acre",
+        "factorSI": 4046.856
+      },
+      {
+        "name": "Ar (a)",
+        "factorSI": 100
+      },
+      {
+        "name": "Barn (b)",
+        "factorSI": 1e-28
+      },
+      {
+        "name": "Dunam",
+        "factorSI": 1000
+      },
+      {
+        "name": "Hektar (ha)",
+        "factorSI": 10000
+      },
+      {
+        "name": "Hufen",
+        "factorSI": 75000
+      },
+      {
+        "name": "Morgen",
+        "factorSI": 2500
+      },
+      {
+        "name": "Pyeong",
+        "factorSI": 3.30578512397
+      },
+      {
+        "name": "Quadratmikrometer (µm²)",
+        "factorSI": 1e-12
+      },
+      {
+        "name": "Quadratmillimeter (mm²)",
+        "factorSI": 1e-6
+      },
+      {
+        "name": "Quadratzentimeter (cm²)",
+        "factorSI": 1e-4
+      },
+      {
+        "name": "Quadratdezimeter (µm²)",
+        "factorSI": 1e-2
+      },
+      {
+        "name": "Quadratfuß (sq ft.)",
+        "factorSI": 0.092903
+      },
+      {
+        "name": "Quadratmeter (m²)",
+        "factorSI": 1
+      },
+      {
+        "name": "Quadratkilometer (km²)",
+        "factorSI": 1e6
+      },
+      {
+        "name": "Quadratmeilen (sq mi)",
+        "factorSI": 2.58999e6
+      }
+    ]
+  },
+  {
+    "path": "volumen",
+    "name": "Volumen",
+    "description": "Volumen, Fassungsvermögen, Rauminhalte und Kapazitäten in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "Volumen Fassungsvermögen Rauminhalte Kapazitäten eiheiten umrechnen konvertieren",
+    "initialFromUnit": 10,
+    "initialToUnit": 16,
+    "units": [
+      {
+        "name": "Barrel (Öl)",
+        "factorSI": 158.987
+      },
+      {
+        "name": "Barrel (Bier, US)",
+        "factorSI": 119.240471196
+      },
+      {
+        "name": "Barrel (Bier, UK)",
+        "factorSI": 163.659250151813
+      },
+      {
+        "name": "Centiliter (cl)",
+        "factorSI": 0.01
+      },
+      {
+        "name": "Deziliter (dl)",
+        "factorSI": 0.1
+      },
+      {
+        "name": "Esslöffel (EL)",
+        "factorSI": 0.015
+      },
+      {
+        "name": "Gallone (US)",
+        "factorSI": 3.785
+      },
+      {
+        "name": "Gallone (UK)",
+        "factorSI": 4.54609
+      },
+      {
+        "name": "Hektoliter (hl)",
+        "factorSI": 100
+      },
+      {
+        "name": "Kubikmillimeter (mm³)",
+        "factorSI": 1e-6
+      },
+      {
+        "name": "Kubikzentimeter (cm³)",
+        "factorSI": 1e-3
+      },
+      {
+        "name": "Kubikzoll (cuin)",
+        "factorSI":  0.016387064
+      },
+      {
+        "name": "Kubikdezimeter (dm³)",
+        "factorSI": 1
+      },
+      {
+        "name": "Kubikfuß (cft)",
+        "factorSI": 28.317
+      },
+      {
+        "name": "Kubikmeter (m³)",
+        "factorSI": 1e3
+      },
+      {
+        "name": "Kubikkilometer (km³)",
+        "factorSI": 1e12
+      },
+      {
+        "name": "Liter (l)",
+        "factorSI": 1
+      },
+      {
+        "name": "Mikroliter (µl)",
+        "factorSI": 1e-6
+      },
+      {
+        "name": "Milliliter (ml)",
+        "factorSI": 1e-3
+      },
+      {
+        "name": "Pint (US)",
+        "factorSI": 0.473176473
+      },
+      {
+        "name": "Pint (UK)",
+        "factorSI": 0.56826125
+      },
+      {
+        "name": "Tasse (cup)",
+        "factorSI": 0.238
+      },
+      {
+        "name": "Telöffel (tl)",
+        "factorSI": 0.0075
+      },
+      {
+        "name": "Zentiliter (cl)",
+        "factorSI": 1e-2
+      }
+    ]
+  },
+  {
+    "path": "zeit",
+    "name": "Zeit",
+    "description": "Zeit und Dauer in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "zeit dauer eiheiten umrechnen konvertieren konvertieren",
+    "initialFromUnit": 11,
+    "initialToUnit": 10,
+    "units": [
+      {
+        "name": "Gigannum",
+        "factorSI": 31536000000000000
+      },
+      {
+        "name": "Megannum",
+        "factorSI": 31536000000000
+      },
+      {
+        "name": "Jahrtausende",
+        "factorSI": 31536000000
+      },
+      {
+        "name": "Jahrhunderte",
+        "factorSI": 3153600000
+      },
+      {
+        "name": "Jahrzehnte",
+        "factorSI": 315360000
+      },
+      {
+        "name": "Jahre",
+        "factorSI": 31536000
+      },
+      {
+        "name": "Monate",
+        "factorSI": 2628000
+      },
+      {
+        "name": "Wochen",
+        "factorSI": 604800
+      },
+      {
+        "name": "Tage",
+        "factorSI": 86400
+      },
+      {
+        "name": "Stunden",
+        "factorSI": 3600
+      },
+      {
+        "name": "Minuten",
+        "factorSI": 60
+      },
+      {
+        "name": "Industrieminuten (Dezimal)",
+        "factorSI": 36
+      },
+      {
+        "name": "Sekunden",
+        "factorSI": 1
+      },
+      {
+        "name": "Hundertstelminuten",
+        "factorSI": 0.6
+      },
+      {
+        "name": "Industriesekunden (Dezimal)",
+        "factorSI": 0.36
+      },
+      {
+        "name": "Millisekunden",
+        "factorSI": 1e-3
+      },
+      {
+        "name": "Mikrosekunden",
+        "factorSI": 1e-6
+      },
+      {
+        "name": "Nanosekunden",
+        "factorSI": 1e-9
+      },
+      {
+        "name": "Picosekunden",
+        "factorSI": 1e-12
+      },
+      {
+        "name": "Femtosekunden",
+        "factorSI": 1e-15
+      },
+      {
+        "name": "Attosekunden",
+        "factorSI": 1e-18
+      }
+    ]
+  },
+  {
+    "path": "geschwindigkeit",
+    "name": "Geschwindigkeit",
+    "description": "Geschwindigkeiten und Tempos in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "Geschwindigkeit Tempo umrechnen imperial metrisch konvertieren",
+    "initialFromUnit": 7,
+    "initialToUnit": 3,
+    "units": [
+      {
+        "name": "Lichtjahre (c)",
+        "factorSI": 299792458
+      },
+      {
+        "name": "Mach (M)",
+        "factorSI": 341
+      },
+      {
+        "name": "Kilometer pro Sekunde (km/s)",
+        "factorSI": 1000
+      },
+      {
+        "name": "Kilometer pro Stunde (km/h)",
+        "factorSI": 3.6
+      },
+      {
+        "name": "Meter pro Sekunde (m/s)",
+        "factorSI": 1
+      },
+      {
+        "name": "Meter pro Stunde (m/h)",
+        "factorSI": 3600
+      },
+      {
+        "name": "Meilen pro Sekunde (mps)",
+        "factorSI": 1609.3439799
+      },
+      {
+        "name": "Meilen pro Stunde (mph)",
+        "factorSI": 0.4470401
+      },
+      {
+        "name": "Fuß pro Sekunde (fps)",
+        "factorSI": 3.280839895013123
+      },
+      {
+        "name": "Knoten (kn)",
+        "factorSI": 0.51444444444444444444444
+      }
+    ]
+  },
+  {
+    "path": "gewicht",
+    "name": "Gewicht",
+    "description": "Gewichte und Massen in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "gewicht masse last belastung umrechnen imperial metrisch konvertieren",
+    "initialFromUnit": 5,
+    "initialToUnit": 4,
+    "units": [
+      {
+        "name": "Tonnen (t)",
+        "factorSI": 1000
+      },
+      {
+        "name": "Dezitonne (dt)",
+        "factorSI": 100
+      },
+      {
+        "name": "Zentner",
+        "factorSI": 50
+      },
+      {
+        "name": "Stone (st.)",
+        "factorSI": 6.35029
+      },
+      {
+        "name": "Kilogramm (kg)",
+        "factorSI": 1
+      },
+      {
+        "name": "Pfund (lbs.)",
+        "factorSI": 0.45359
+      },
+      {
+        "name": "Pfund (deutsch)",
+        "factorSI": 0.5
+      },
+      {
+        "name": "Hektogramm (hg)",
+        "factorSI": 0.1
+      },
+      {
+        "name": "Unze (oz.)",
+        "factorSI": 0.0283495
+      },
+      {
+        "name": "Dekagramm (dg)",
+        "factorSI": 0.01
+      },
+      {
+        "name": "Gramm (g)",
+        "factorSI": 0.001
+      },
+      {
+        "name": "Karat (ct)",
+        "factorSI": 0.0002
+      },
+      {
+        "name": "Grain",
+        "factorSI": 0.00006479891
+      },
+      {
+        "name": "Milligramm (mg)",
+        "factorSI": 0.000001
+      },
+      {
+        "name": "Mikrogramm (mg)",
+        "factorSI": 0.000000001
+      },
+      {
+        "name": "Atomare Masseneinheit (amu)",
+        "factorSI": 1.660538921e-27
+      }
+    ]
+  },
+  {
+    "path": "kraft",
+    "name": "Kraft",
+    "description": "Kraft in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "kraft newton umrechnen imperial metrisch konvertieren",
+    "initialFromUnit": 9,
+    "initialToUnit": 3,
+    "units": [
+      {
+        "name": "Nanonewton (nN)",
+        "factorSI": 1e-9
+      },
+      {
+        "name": "Micronewton (µN)",
+        "factorSI": 1e-6
+      },
+      {
+        "name": "Millinewton (mN)",
+        "factorSI": 1e-3
+      },
+      {
+        "name": "Newton (N)",
+        "factorSI": 1
+      },
+      {
+        "name": "Kilonewton (KN)",
+        "factorSI": 1000
+      },
+      {
+        "name": "Meganewton (MN)",
+        "factorSI": 1e6
+      },
+      {
+        "name": "Giganewton (GN)",
+        "factorSI": 1e9
+      },
+      {
+        "name": "Dyn",
+        "factorSI": 1e-5
+      },
+      {
+        "name": "Kilopond (kp)",
+        "factorSI": 9.80665
+      },
+      {
+        "name": "Pound-force (lbf)",
+        "factorSI": 4.4482216152605
+      },
+      {
+        "name": "Poundal (pdl.)",
+        "factorSI": 0.138254954376
+      },
+      {
+        "name": "Sthen (franz. MTS-System)",
+        "factorSI": 1000
+      },
+      {
+        "name": "Sthen (Miesches System)",
+        "factorSI": 100
+      }
+    ]
+  },
+  {
+    "path": "energie",
+    "name": "Arbeit & Energie",
+    "description": "Arbeit, Energie und Potential in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "arbeit energie potential umrechnen konvertieren",
+    "initialFromUnit": 6,
+    "initialToUnit": 2,
+    "units": [
+      {
+        "name": "Wattsekunden (Ws)",
+        "factorSI": 1
+      },
+      {
+        "name": "Newtonmeter (Nm)",
+        "factorSI": 1
+      },
+      {
+        "name": "Joule (J)",
+        "factorSI": 1
+      },
+      {
+        "name": "Kilojoule (KJ)",
+        "factorSI": 1000
+      },
+      {
+        "name": "Megajoule (MJ)",
+        "factorSI": 1000000
+      },
+      {
+        "name": "Wattstunden (Wh)",
+        "factorSI": 3600
+      },
+      {
+        "name": "Kilowattstunden (KWh)",
+        "factorSI": 3600000
+      },
+      {
+        "name": "Megawattstunden (MWh)",
+        "factorSI": 3600000000
+      },
+      {
+        "name": "Kalorien (cal)",
+        "factorSI": 4.1868
+      },
+      {
+        "name": "Kilokalorien (kcal)",
+        "factorSI": 4186.8
+      }
+    ]
+  },
+  {
+    "path": "druck",
+    "name": "Druck",
+    "description": "Druck in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "druck umrechnen imperial metrisch konvertieren",
+    "initialFromUnit": 1,
+    "initialToUnit": 8,
+    "units": [
+      {
+        "name": "Mikropascal (µPa)",
+        "factorSI": 1e-6
+      },
+      {
+        "name": "Millipascal (mPa)",
+        "factorSI": 1e-3
+      },
+      {
+        "name": "Pascal (Pa)",
+        "factorSI": 1
+      },
+      {
+        "name": "Hektopascal (hPa)",
+        "factorSI": 1e2
+      },
+      {
+        "name": "Kilopascal (kPa)",
+        "factorSI": 1e3
+      },
+      {
+        "name": "Megapascal (MPa)",
+        "factorSI": 1e6
+      },
+      {
+        "name": "Mikrobar (µbar)",
+        "factorSI": 0.1
+      },
+      {
+        "name": "Millibar (mbar)",
+        "factorSI": 1e2
+      },
+      {
+        "name": "Bar (bar)",
+        "factorSI": 1e5
+      },
+      {
+        "name": "Kilobar (kbar)",
+        "factorSI": 1e8
+      },
+      {
+        "name": "Megabar (Mbar)",
+        "factorSI": 1e11
+      },
+      {
+        "name": "Pound-feet per square-inch (psi)",
+        "factorSI": 6894.8
+      },
+      {
+        "name": "Torr (mmHg)",
+        "factorSI": 133.322
+      },
+      {
+        "name": "Technische Atmosphäre (at)",
+        "factorSI": 98066.5
+      },
+      {
+        "name": "Physikalische Atmosphäre (atm)",
+        "factorSI": 101325
+      },
+      {
+        "name": "Barye (Ba)",
+        "factorSI": 0.1
+      }
+    ]
+  },
+  {
+    "path": "dichte",
+    "name": "Dichte",
+    "description": "Dichte in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "dichte umrechnen imperial metrisch konvertieren",
+    "initialFromUnit": 2,
+    "initialToUnit": 0,
+    "units": [
+      {
+        "name": "Kilogramm pro m³",
+        "factorSI": 1
+      },
+      {
+        "name": "Kilogramm pro Liter oder dm³",
+        "factorSI": 1000
+      },
+      {
+        "name": "Gramm pro ml oder cm³",
+        "factorSI": 1000
+      },
+      {
+        "name": "Tonnen pro m³",
+        "factorSI": 1000
+      },
+      {
+        "name": "Pounds per cubic inch (lb/cu in)",
+        "factorSI": 27679.9047
+      },
+      {
+        "name": "Pounds per cubic foot (lb/cu ft)",
+        "factorSI": 16.0184634
+      },
+      {
+        "name": "Pounds per cubic yard (lb/cu yd)",
+        "factorSI": 0.593276421
+      },
+      {
+        "name": "Pounds per gallon (lb/gal)",
+        "factorSI": 119.826427
+      }
+    ]
+  },
+  {
+    "path": "wasserhaerte",
+    "name": "Wasserhärte",
+    "description": "Wasserhärte in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "wasserhärte umrechnen deutsche englische franzöische härtegrade",
+    "initialFromUnit": 0,
+    "initialToUnit": 1,
+    "units": [
+      {
+        "name": "Deutsche Härtegrade (°D)",
+        "factorSI": 1
+      },
+      {
+        "name": "Französische Härtegrade (°F)",
+        "factorSI": 0.560
+      },
+      {
+        "name": "Englische Härtegrade (°E)",
+        "factorSI": 0.798
+      },
+      {
+        "name": "mval/l Erdalkali-Ionen",
+        "factorSI": 2.81
+      },
+      {
+        "name": "mmol/l Erdalkali-Ionen",
+        "factorSI": 5.62
+      },
+      {
+        "name": "ppm CaCO₃",
+        "factorSI": 0.0562
+      }
+    ]
+  },
+  {
+    "path": "winkel",
+    "name": "Winkel",
+    "description": "Winkel in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "winkel umrechnen konvertieren grad bogenmaß artilleristische nautische striche",
+    "initialFromUnit": 6,
+    "initialToUnit": 0,
+    "units": [
+      {
+        "name": "Grad",
+        "factorSI": 1
+      },
+      {
+        "name": "Bogenmaß",
+        "factorSI": 57.2957795
+      },
+      {
+        "name": "Artilleristische Striche",
+        "factorSI": 0.05625
+      },
+      {
+        "name": "Nautische Striche",
+        "factorSI": 11.25
+      },
+      {
+        "name": "Vollwinkel",
+        "factorSI": 360
+      },
+      {
+        "name": "Stundenmaß",
+        "factorSI": 15
+      },
+      {
+        "name": "Winkelminuten",
+        "factorSI": 0.01666666666
+      },
+      {
+        "name": "Winkelsekunden",
+        "factorSI": 0.00027777777
+      },
+      {
+        "name": "Tertie",
+        "factorSI": 0.00000462962
+      }
+    ]
+  },
+  {
+    "path": "frequenz",
+    "name": "Frequenzen & Rotation",
+    "description": "Frequenzen, Rotation und Winkelgeschwindigkeit in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "frequenzen rotation winkelgeschwindigkeit umrechnen konvertieren",
+    "initialFromUnit": 3,
+    "initialToUnit": 8,
+    "units": [
+      {
+        "name": "Nanohertz",
+        "factorSI": 1e-9
+      },
+      {
+        "name": "Mikrohertz",
+        "factorSI": 1e-6
+      },
+      {
+        "name": "Millihertz",
+        "factorSI": 1e-3
+      },
+      {
+        "name": "Hertz",
+        "factorSI": 1
+      },
+      {
+        "name": "Kilohertz",
+        "factorSI": 1e3
+      },
+      {
+        "name": "Megahertz",
+        "factorSI": 1e6
+      },
+      {
+        "name": "Gigahertz",
+        "factorSI": 1e9
+      },
+      {
+        "name": "Terahertz",
+        "factorSI": 1e12
+      },
+      {
+        "name": "Zyklen pro Minute (bpm, U/min)",
+        "factorSI": 0.01666666666
+      },
+      {
+        "name": "Rad pro Sekunde",
+        "factorSI": 0.1591549431
+      },
+      {
+        "name": "Rad pro Minute",
+        "factorSI": 0.0026525824
+      },
+      {
+        "name": "Grad pro Sekunde",
+        "factorSI": 0.00277777777
+      },
+      {
+        "name": "Grad pro Minute",
+        "factorSI": 0.00004629629
+      }
+    ]
+  },
+  {
+    "path": "speicher",
+    "name": "Daten & Speicher",
+    "description": "Datenmengen, Bandbreiten und Speichergrößen in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
+    "keywords": "Datenmengen Bandbreiten Speichergrößen umrechnen konvertieren",
+    "initialFromUnit": 0,
+    "initialToUnit": 10,
+    "units": [
+      {
+        "name": "Bit",
+        "factorSI": 1
+      },
+      {
+        "name": "Kilobit (Kbit)",
+        "factorSI": 1e3
+      },
+      {
+        "name": "Megabit (Mbit)",
+        "factorSI": 1e6
+      },
+      {
+        "name": "Gigabit (Gbit)",
+        "factorSI": 1e9
+      },
+      {
+        "name": "Terabit (Tbit)",
+        "factorSI": 1e12
+      },
+      {
+        "name": "Petabit (Pbit)",
+        "factorSI": 1e15
+      },
+      {
+        "name": "Exabit (Ebit)",
+        "factorSI": 1e18
+      },
+      {
+        "name": "Zettabit (Zbit)",
+        "factorSI": 1e21
+      },
+      {
+        "name": "Yottabit (Ybit)",
+        "factorSI": 1e24
+      },
+      {
+        "name": "Nibble",
+        "factorSI": 4
+      },
+      {
+        "name": "Byte",
+        "factorSI": 8
+      },
+      {
+        "name": "Kilobyte (KB)",
+        "factorSI": 8e3
+      },
+      {
+        "name": "Megabyte (MB)",
+        "factorSI": 8e6
+      },
+      {
+        "name": "Gigabyte (GB)",
+        "factorSI": 8e9
+      },
+      {
+        "name": "Terabyte (TB)",
+        "factorSI": 8e12
+      },
+      {
+        "name": "Petabyte (PB)",
+        "factorSI": 8e15
+      },
+      {
+        "name": "Exabyte (EB)",
+        "factorSI": 8e18
+      },
+      {
+        "name": "Zettabyte (ZB)",
+        "factorSI": 8e21
+      },
+      {
+        "name": "Yottabyte (YB)",
+        "factorSI": 8e24
+      },
+      {
+        "name": "Kibibit (Kibit)",
+        "factorSI": 1024
+      },
+      {
+        "name": "Mebibit (Mibit)",
+        "factorSI": 1048576
+      },
+      {
+        "name": "Gibibit (Gibit)",
+        "factorSI": 1073741824
+      },
+      {
+        "name": "Tebibit (Tibit)",
+        "factorSI": 1.0995116e12
+      },
+      {
+        "name": "Pebibit (Pibit)",
+        "factorSI": 1.1258999e15
+      },
+      {
+        "name": "Exbibit (Eibit)",
+        "factorSI": 1.1529215e18
+      },
+      {
+        "name": "Zebibit (Zibit)",
+        "factorSI": 1.1805916e21
+      },
+      {
+        "name": "Yobibit (Yibit)",
+        "factorSI": 1.2089258e24
+      },
+      {
+        "name": "Kibibyte (KiB)",
+        "factorSI": 8192
+      },
+      {
+        "name": "Mebibyte (MiB)",
+        "factorSI": 8388608
+      },
+      {
+        "name": "Gibibyte (GiB)",
+        "factorSI": 8589934592
+      },
+      {
+        "name": "Tebibyte (TiB)",
+        "factorSI": 8.796093e12
+      },
+      {
+        "name": "Pebibyte (PiB)",
+        "factorSI": 9.0071993e15
+      },
+      {
+        "name": "Exbibyte (EiB)",
+        "factorSI": 9.223372e18
+      },
+      {
+        "name": "Zebibyte (ZiB)",
+        "factorSI": 9.444733e21
+      },
+      {
+        "name": "Yobibyte (Ybit)",
+        "factorSI": 9.6714066e24
+      }
+    ]
+  }
+]

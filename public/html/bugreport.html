@@ -1,0 +1,28 @@
+<style>
+
+    input {
+        width: 260px;
+
+    }
+    textarea{
+        width: 260px;
+        height: 150px;
+    }
+
+</style>
+<h1>Bug report</h1>
+<div>
+    <p>Schreib mir, welchen Fehler du gefunden hast, was dieser Seite hinzugefügt werden soll oder was du ändern würdest.</p>
+    <form class="pure-form pure-form-stacked">
+        <fieldset>
+            <label for="email">Email: (optional)</label>
+            <input id="email" type="email" placeholder="Email for questions (optional)"
+                   ng-model="sender">
+            <label for="text">Nachricht:</label>
+            <textarea id="text" placeholder="Your feedback" ng-model="text"></textarea>
+        </fieldset>
+        <button class="pure-button pure-button-primary" type="submit" ng-click="sendFeedback()">Submit
+        </button>
+    </form>
+    <p><b>Danke :)</b></p>
+</div>
