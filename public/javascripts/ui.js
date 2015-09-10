@@ -49,7 +49,7 @@ var app = angular.module('eu', ['ngRoute']).run(function ($http, $rootScope, $sc
     };
 });
 
-app.controller('contentController', function ($scope, $routeParams, $rootScope, $location, $sce) {
+app.controller('contentController', function ($scope, $routeParams, $rootScope, $location, $sce, $window, $http) {
     $scope.$on('$includeContentRequested', function (angularEvent, src) {
         $scope.loadingText = true;
     });
@@ -59,9 +59,9 @@ app.controller('contentController', function ($scope, $routeParams, $rootScope, 
     });
     $scope.$on('$includeContentLoaded', function (angularEvent, src) {
         $scope.loadingText = false;
+        var sitePath = angular.lowercase($routeParams.site);
         $rootScope.selectedSite = undefined;
         if ($rootScope.sites) {
-            var sitePath = angular.lowercase($routeParams.site);
             for (var i = 0; i < $rootScope.sites.length; i++) {
                 if (angular.lowercase($rootScope.sites[i].path) === sitePath) {
                     $rootScope.selectedSite = $rootScope.sites[i];
@@ -78,7 +78,8 @@ app.controller('contentController', function ($scope, $routeParams, $rootScope, 
         if (!$rootScope.selectedSite) {
             $rootScope.selectedSite = {
                 keywords: "knoverter umrechner umrechnen einheiten",
-                description: "Einheiten-Umrechner.org ist deine Anlaufstelle für das Umrechnen von Einheiten aller Art!"
+                description: "Einheiten-Umrechner.org ist deine Anlaufstelle für das Umrechnen von Einheiten aller Art!",
+                path: sitePath
             };
         }
         $rootScope.shareText = encodeURIComponent($rootScope.selectedSite.description);
@@ -95,15 +96,15 @@ app.controller('contentController', function ($scope, $routeParams, $rootScope, 
         result: undefined,
         error: undefined
     };
+
     $scope.converter = angular.copy(initial);
+    $scope.email = {};
 
-
+    //TODO remove oder überarbeiten
     $scope.calculateMain = function(){
         console.log($rootScope.sites[0].units[0] === $scope.converter.toUnit);
         console.log($rootScope.sites[0].units[0]);
         console.log($scope.converter);
-
-
         var i = $rootScope.sites.length;
         while (i--) {
             if (contains($rootScope.sites[i].units,$scope.converter.toUnit)) {
@@ -111,6 +112,7 @@ app.controller('contentController', function ($scope, $routeParams, $rootScope, 
                     $scope.calculate();
                 } else {
                     $scope.converter.error = "Die Einheiten müssen in derselben Kategorie sein";
+
                 }
                 return;
             }
@@ -129,6 +131,8 @@ app.controller('contentController', function ($scope, $routeParams, $rootScope, 
             $scope.converter.result = $sce.trustAsHtml("<b>" + round(result) + " " + $scope.converter.toUnit.name + "</b>.");
             $scope.converter.ratio = $sce.trustAsHtml("Das Verhältnis ist <b>" + (round (result/$scope.converter.input)) + "</b>");
 
+            $window.ga('send', 'event', $rootScope.selectedSite.name, 'convert', $scope.converter.fromUnit.name + " to " + $scope.converter.toUnit.name, result);
+
         } else {
             $scope.converter.error = "Bitte gib einen gültigen Wert ein und wähle Ausgangs- und Zieleinheit.";
         }
@@ -137,14 +141,13 @@ app.controller('contentController', function ($scope, $routeParams, $rootScope, 
         $scope.converter = angular.copy(initial);
     };
     $scope.sendFeedback = function () {
-        if ($scope.text) {
+        if ($scope.email.text) {
             $http.post('/sendmail', {
-                text: $scope.text,
-                sender: $scope.sender
+                text: $scope.email.text,
+                sender: $scope.email.sender
             }).
                 then(function (response) {
-                    $scope.text = undefined;
-                    $scope.sender = undefined;
+                    $scope.email = {};
                 });
         }
     };

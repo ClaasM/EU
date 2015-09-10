@@ -154,6 +154,10 @@ h2 {
     padding: 10px;
     margin: 5px;
 }
+#sources > a {
+    font-size: 10px;
+    word-break: break-all;
+}
 
 #footer {
     background: #eeeeee;
@@ -238,7 +242,7 @@ h2 {
     background-color: #e7e7e7;
 }
 
-.text p, h4 {
+.text p, h4, table {
     font-size: 13px;
     padding-right: 10px;
 }

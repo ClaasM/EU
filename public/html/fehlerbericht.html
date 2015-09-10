@@ -10,7 +10,7 @@
     }
 
 </style>
-<h1>Bug report</h1>
+<h1>Fehlerbericht</h1>
 <div>
     <p>Schreib mir, welchen Fehler du gefunden hast, was dieser Seite hinzugefügt werden soll oder was du ändern würdest.</p>
     <form class="pure-form pure-form-stacked">
@@ -19,9 +19,9 @@
             <input id="email" type="email" placeholder="Email for questions (optional)"
                    ng-model="sender">
             <label for="text">Nachricht:</label>
-            <textarea id="text" placeholder="Your feedback" ng-model="text"></textarea>
+            <textarea id="text" placeholder="Your feedback" ng-model="email.text" required></textarea>
         </fieldset>
-        <button class="pure-button pure-button-primary" type="submit" ng-click="sendFeedback()">Submit
+        <button class="pure-button pure-button-primary" type="submit" ng-click="sendFeedback()">Absenden
         </button>
     </form>
     <p><b>Danke :)</b></p>

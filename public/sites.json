@@ -48,16 +48,20 @@
         "factorSI": 0.00333333333333
       },
       {
-        "name": "Chinesisch hao",
+        "name": "Chinesisch li",
         "factorSI": 0.000333333333333
       },
       {
-        "name": "Chinesisch si",
+        "name": "Chinesisch hao",
         "factorSI": 0.0000333333333333
       },
       {
-        "name": "Chinesisch hu",
+        "name": "Chinesisch si",
         "factorSI": 0.00000333333333333
+      },
+      {
+        "name": "Chinesisch hu",
+        "factorSI": 0.000000333333333333
       },
       {
         "name": "Dekameter (dam)",
@@ -150,8 +154,7 @@
       },
       {
         "name": "Meilen",
-        "factorSI": 1609.344,
-        "selected": "from"
+        "factorSI": 1609.344
       },
       {
         "name": "Meter (m)",
@@ -507,7 +510,7 @@
       },
       {
         "name": "Mach (M)",
-        "factorSI": 341
+        "factorSI": 295.0464
       },
       {
         "name": "Kilometer pro Sekunde (km/s)",
@@ -515,7 +518,7 @@
       },
       {
         "name": "Kilometer pro Stunde (km/h)",
-        "factorSI": 3.6
+        "factorSI": 0.277777778
       },
       {
         "name": "Meter pro Sekunde (m/s)",
