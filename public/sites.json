@@ -4,8 +4,8 @@
     "name": "Länge",
     "description": "Längen, Höhen und Entfernungen in allen Einheiten einfach umrechnen auf Einheiten-Umrechnen.org",
     "keywords": "umrechnen laengen längen höhen hoehen entfernungen umrechnen imperial metrisch konvertieren",
-    "initialFromUnit": 35,
-    "initialToUnit": 22,
+    "initialFromUnit": 36,
+    "initialToUnit": 23,
     "units": [
       {
         "name": "Ångström (Å)",
@@ -275,7 +275,7 @@
         "factorSI": 1e-4
       },
       {
-        "name": "Quadratdezimeter (µm²)",
+        "name": "Quadratdezimeter (dm²)",
         "factorSI": 1e-2
       },
       {
@@ -393,7 +393,7 @@
         "factorSI": 0.238
       },
       {
-        "name": "Telöffel (tl)",
+        "name": "Teelöffel (tl)",
         "factorSI": 0.0075
       },
       {
@@ -505,7 +505,7 @@
     "initialToUnit": 3,
     "units": [
       {
-        "name": "Lichtjahre (c)",
+        "name": "Lichtgeschwindigkeit (c)",
         "factorSI": 299792458
       },
       {
@@ -538,7 +538,7 @@
       },
       {
         "name": "Fuß pro Sekunde (fps)",
-        "factorSI": 3.280839895013123
+        "factorSI": 0.304800
       },
       {
         "name": "Knoten (kn)",
@@ -611,7 +611,7 @@
         "factorSI": 0.000001
       },
       {
-        "name": "Mikrogramm (mg)",
+        "name": "Mikrogramm (µg)",
         "factorSI": 0.000000001
       },
       {
@@ -785,7 +785,7 @@
         "factorSI": 1e11
       },
       {
-        "name": "Pound-feet per square-inch (psi)",
+        "name": "Pound per square-inch (psi)",
         "factorSI": 6894.8
       },
       {

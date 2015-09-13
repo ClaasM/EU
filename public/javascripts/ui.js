@@ -157,7 +157,7 @@ app.controller('contentController', function ($scope, $routeParams, $rootScope, 
         return angular.isNumber(decimal) && isFinite(decimal);
     };
     var round = function (decimal) {
-      return parseFloat(decimal.toPrecision(10));
+      return parseFloat(decimal.toPrecision(6));
     };
     var contains = function(a, obj) {
         var i = a.length;
