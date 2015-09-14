@@ -223,10 +223,9 @@ h2 {
     width: 215px;
     margin: 5px 10px 5px 5px;
 }
-
 .pure-menu-list > li {
     line-height: 40px;
-    border-bottom: solid 1px;
+    border-bottom: solid #a7a7a7 1px;
     height: auto;
 }
 .pure-menu-list > li > a {
@@ -242,7 +241,7 @@ h2 {
     background-color: #e7e7e7;
 }
 
-.text p, h4, table {
+.text p,.text h4,.text table {
     font-size: 12px;
     margin-right: 10px;
 }
