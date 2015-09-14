@@ -899,6 +899,10 @@
         "factorSI": 57.2957795
       },
       {
+        "name": "Gon (Neugrad)",
+        "factorSI": 0.9
+      },
+      {
         "name": "Artilleristische Striche",
         "factorSI": 0.05625
       },
@@ -911,10 +915,6 @@
         "factorSI": 360
       },
       {
-        "name": "Stundenmaß",
-        "factorSI": 15
-      },
-      {
         "name": "Winkelminuten",
         "factorSI": 0.01666666666
       },
@@ -925,6 +925,18 @@
       {
         "name": "Tertie",
         "factorSI": 0.00000462962
+      },
+      {
+        "name": "Prozent",
+        "factorSI": 3.6
+      },
+      {
+        "name": "Promille",
+        "factorSI": 0.36
+      },
+      {
+        "name": "Stundenmaß",
+        "factorSI": 15
       }
     ]
   },
@@ -937,35 +949,35 @@
     "initialToUnit": 8,
     "units": [
       {
-        "name": "Nanohertz",
+        "name": "Nanohertz (nHz)",
         "factorSI": 1e-9
       },
       {
-        "name": "Mikrohertz",
+        "name": "Mikrohertz (µHz)",
         "factorSI": 1e-6
       },
       {
-        "name": "Millihertz",
+        "name": "Millihertz (mHz)",
         "factorSI": 1e-3
       },
       {
-        "name": "Hertz",
+        "name": "Hertz (Hz)",
         "factorSI": 1
       },
       {
-        "name": "Kilohertz",
+        "name": "Kilohertz (kHz)",
         "factorSI": 1e3
       },
       {
-        "name": "Megahertz",
+        "name": "Megahertz (MHz)",
         "factorSI": 1e6
       },
       {
-        "name": "Gigahertz",
+        "name": "Gigahertz (GHz)",
         "factorSI": 1e9
       },
       {
-        "name": "Terahertz",
+        "name": "Terahertz (THz)",
         "factorSI": 1e12
       },
       {
