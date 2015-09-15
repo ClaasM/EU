@@ -100,25 +100,6 @@ app.controller('contentController', function ($scope, $routeParams, $rootScope, 
     $scope.converter = angular.copy(initial);
     $scope.email = {};
 
-    //TODO remove oder überarbeiten
-    $scope.calculateMain = function(){
-        console.log($rootScope.sites[0].units[0] === $scope.converter.toUnit);
-        console.log($rootScope.sites[0].units[0]);
-        console.log($scope.converter);
-        var i = $rootScope.sites.length;
-        while (i--) {
-            if (contains($rootScope.sites[i].units,$scope.converter.toUnit)) {
-                if (contains($rootScope.sites[i].units,$scope.converter.fromUnit)) {
-                    $scope.calculate();
-                } else {
-                    $scope.converter.error = "Die Einheiten müssen in derselben Kategorie sein";
-
-                }
-                return;
-            }
-        }
-        $scope.converter.error = "Bitte gib einen gültigen Wert ein und wähle Ausgangs- und Zieleinheit. 2";
-    };
     $scope.calculate = function () {
         if ($scope.converter.fromUnit
             && $scope.converter.toUnit
@@ -139,6 +120,10 @@ app.controller('contentController', function ($scope, $routeParams, $rootScope, 
     };
     $scope.reset = function () {
         $scope.converter = angular.copy(initial);
+        $scope.converter.toUnit
+            = $scope.selectedSite.units[$scope.selectedSite.initialToUnit || 0];
+        $scope.converter.fromUnit
+            = $scope.selectedSite.units[$scope.selectedSite.initialFromUnit || 0];
     };
     $scope.sendFeedback = function () {
         if ($scope.email.text) {
