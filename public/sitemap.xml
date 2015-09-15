@@ -1,21 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://einheitenumrechner-peckberger.rhcloud.com</loc>
+        <loc>http://www.einheiten-umrechnen.org/</loc>
     </url>
     <url>
-        <loc>https://einheitenumrechner-peckberger.rhcloud.com/about</loc>
+        <loc>http://www.einheiten-umrechnen.org/laenge</loc>
     </url>
     <url>
-        <loc>https://einheitenumrechner-peckberger.rhcloud.com/feedback</loc>
+        <loc>http://www.einheiten-umrechnen.org/flaeche</loc>
+    </url>
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/volumen</loc>
+    </url>
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/zeit</loc>
+    </url>
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/geschwindigkeit</loc>
+    </url>
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/gewicht</loc>
+    </url>
+
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/kraft</loc>
+    </url>
+
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/energie</loc>
+    </url>
+
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/druck</loc>
+    </url>
+
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/dichte</loc>
+    </url>
+
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/wasserhaerte</loc>
+    </url>
+
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/winkel</loc>
+    </url>
+
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/frequenz</loc>
+    </url>
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/speicher</loc>
+    </url>
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/feedback</loc>
     </url>
     <url>
         <loc>http://www.einheiten-umrechnen.org/fehlerbericht</loc>
     </url>
     <url>
-        <loc>https://einheitenumrechner-peckberger.rhcloud.com/tos</loc>
+        <loc>http://www.einheiten-umrechnen.org/vorschlaege</loc>
     </url>
     <url>
-        <loc>https://einheitenumrechner-peckberger.rhcloud.com/vorschlaege</loc>
+        <loc>http://www.einheiten-umrechnen.org/impressum</loc>
+    </url>
+    <url>
+        <loc>http://www.einheiten-umrechnen.org/datenschutz</loc>
     </url>
 </urlset>

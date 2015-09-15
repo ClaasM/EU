@@ -122,6 +122,9 @@ h2 {
     padding: 10px;
     width: 400px;
 }
+.heading_cell span {
+    white-space: nowrap;
+}
 .heading_link {
     text-decoration: none;
 }
