@@ -1,3 +1,3 @@
-The OpenShift `nodejs` cartridge documentation can be found at:
+# EU
+einheiten-umrechnen.org is a website I made some time ago to get into web development.
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
